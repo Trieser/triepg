@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 250px; /* Geser konten utama ke kanan agar tidak tertutup sidebar */
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Main Content Styles */
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Section Styles */
+.section-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .header {
+        font-size: 24px;
+        padding: 15px;
+    }
+}
