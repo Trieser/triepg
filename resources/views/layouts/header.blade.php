@@ -1,7 +1,7 @@
 <div class="header">
     <h1>Trie World</h1>
     <nav>
-        <a href="#">Home</a>
+        <a href="#">Homesss</a>
         <a href="#">Features</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
